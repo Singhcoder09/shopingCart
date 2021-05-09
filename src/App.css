@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.container1{
+  background-color: skyblue;
+  height: 80px;
+}
+
+.heading{
+  text-align: left;
+  padding-top: 16px;
+}
+
+
+
+.icon{
+  padding-top: 18px;
+  text-align: right;
+}
+
+.Quantity {
+  padding: 57px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.value {
+  border: 2px solid grey;
+  font-size: 16px;
+  margin: 6px;
+  padding: 6px;
+  display: inline-block;
+}
+
+.outline {
+  border: .5px solid grey;
+}
+
+.desc {
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.productImg{
+  margin: 5px 0 5px 0;
+}

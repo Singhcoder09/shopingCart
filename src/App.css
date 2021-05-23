@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,33 +24,25 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .container1{
-  background-color: skyblue;
-  height: 80px;
+  background-color: #02e3e3;
+  height: 70px;
 }
 
 .heading{
   text-align: left;
-  padding-top: 16px;
+  padding: 16px 0px 0px 0px;
+  margin: 0px;
+
 }
 
 
 
 .icon{
   padding-top: 18px;
+  padding-right: 0px;
+  padding-left: 0px;
   text-align: right;
 }
 
@@ -81,3 +73,37 @@
 .productImg{
   margin: 5px 0 5px 0;
 }
+
+.topheading a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.products {
+  padding: 5px 5px 1px 5px;
+  margin: 0px 5px 0px 5px;
+}
+
+.cartHeader{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding: 15px 0 0 0;
+}
+
+.items {
+  padding-left: 5px;
+}
+
+.values {
+  padding-left: 5px;
+}
+
+.checkout {
+  text-align: left;
+} 

@@ -32,7 +32,10 @@ function Navbar(props) {
                     <DisplayProducts 
                         Products={props.totalItems} 
                         incrementValue={props.incrementValue} 
-                        decrementValue={props.decrementValue}/> 
+                        decrementValue={props.decrementValue}
+                        sortType={props.sortType} 
+                        listNum={props.listNum}
+                        onSort={props.onSort}/> 
                     </Route>
                     <Route path="/Cart">
                         <Cart totalItems={props.totalItems} totalValue={props.totalValue}/>
